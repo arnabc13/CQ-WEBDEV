@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Rubik+Doodle+Shadow&display=swap');
+body{
+    background-color: white;
+}
+.header{
+    
+    span{
+        font-family: 'Rubik Doodle Shadow';
+       text-align: center;
+    }
+    color: black;
+}
+.body1{
+
+      
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: nowrap;
+    .vk-text{
+        background-color: black;
+        color: white;
+        padding-left: 2em;
+        padding-top: 1em;
+        padding-right: 2em;
+        padding-bottom: 15em;
+        size: 0.5em;
+        height: 22em;
+        margin-right: 1em;
+        margin-left: 0;
+
+          h2{
+            text-align: center;
+            font-family: 'poppins';
+          }
+          p{
+            text-align: center;
+            font-family: 'poppins';
+            font-size: .8em;
+          }
+          .more{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            a{
+                font-family: 'poppins';
+                text-decoration: none;
+                color: white;
+                 &:hover{
+                    color: red;
+                    transition: 0.5s;
+                }    
+            }
+          }
+    }
+    .rk-text{
+        background-color: black;
+        color: white;
+        padding-left: 2em;
+        padding-top: 1em;
+        padding-right: 2em;
+        padding-bottom: 15em;
+        size: 0.5em;
+        height: 22em;
+        margin-right: 1em;
+        h2{
+            text-align: center;
+            font-family: 'poppins';
+        }
+        p{
+            text-align: center;
+            font-family: 'poppins';
+            font-size: .8em;
+        }
+        .more{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            a{
+                font-family: 'poppins';
+                text-decoration: none;
+                color: white;
+                 &:hover{
+                    color: red;
+                    transition: 0.5s;
+                }    
+            }
+          }
+    }
+    .mmm-text{
+        background-color: black;
+        color: white;
+        padding-left: 2em;
+        padding-top: 1em;
+        padding-right: 2em;
+        padding-bottom: 15em;
+        //size: .5em;
+        height: 22em;
+        h2{
+            text-align: center;
+            font-family: 'poppins';
+        }
+        p{
+            text-align: center;
+            font-family: 'poppins';
+            font-size: .8em;
+        }
+        .mmm{
+            size: .5em;
+            height: 20em;
+        }
+        .more{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            a{
+                font-family: 'poppins';
+                text-decoration: none;
+                color: white;
+                 &:hover{
+                    color: red;
+                    transition: 0.5s;
+                }    
+            }
+          }
+    }
+}
+.footer{
+    background-color: white;
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    //align-items: flex-end;
+       .footer1{
+        margin: 0;
+        padding-left: 1em;
+        display: flex;
+         align-items: center;
+         .cq_logo{
+            align-self: center; 
+            height: 5em;
+           }
+       }
+       .footer2{
+           width: 15%;
+           display:flex ;
+           align-items: flex-end;
+           justify-content: space-between;
+           
+          .facebook{
+           height: 3em;
+           
+           }
+           .instagram{
+            height: 3em;
+           }
+           .linkedin{
+            height: 3em;
+           }
+        }
+      
+}
+@media only screen and (max-width:500px){
+    .body1{
+        margin: 0;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
